@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dream Journal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="popup-container" class="popup-container">
+        <div class="popup" id="popup-message"></div>
+        <button id="next-popup">Next</button>
+    </div>
+
+    <div id="auth-container" class="auth-container hidden">
+        <h2>Welcome to Dream Journal</h2>
+        <input type="password" id="passcode-input" placeholder="Enter passcode">
+        <div class="auth-buttons">
+            <button id="register-key">Register a Key</button>
+            <button id="login-key">Login with a Key</button>
+        </div>
+        <p id="auth-message"></p>
+    </div>
+
+    <div id="blog-container" class="blog-container hidden">
+        <aside class="sidebar">
+            <h3>Previous Blogs</h3>
+            <ul id="blog-list"></ul>
+        </aside>
+        <main class="blog-main">
+            <h2>Create New Blog</h2>
+            <input type="text" id="blog-title" placeholder="Blog Title">
+            <textarea id="blog-body" placeholder="Write your blog here..."></textarea>
+            <button id="save-blog">Save Blog</button>
+        </main>
+        <aside class="options-bar">
+            <h3>Options</h3>
+            <button id="edit-blog">Edit Blog</button>
+            <button id="delete-blog">Delete Blog</button>
+            <button id="archive-blog">Archive Blog</button>
+            <button id="logout">Logout</button>
+        </aside>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
