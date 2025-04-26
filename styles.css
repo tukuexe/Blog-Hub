@@ -1,0 +1,132 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: #f9f9f9;
+}
+
+.hidden {
+    display: none;
+}
+
+.popup-container {
+    position: fixed;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: rgba(0,0,0,0.8);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+.popup {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#next-popup {
+    padding: 10px 20px;
+    font-size: 18px;
+    background: #5C6BC0;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.auth-container {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.auth-container input {
+    padding: 10px;
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.auth-buttons button {
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.auth-buttons button:hover {
+    background: #5C6BC0;
+    color: white;
+}
+
+.blog-container {
+    display: flex;
+    height: 100vh;
+}
+
+.sidebar, .options-bar {
+    width: 20%;
+    background: #E8EAF6;
+    padding: 20px;
+    overflow-y: auto;
+}
+
+.blog-main {
+    flex: 1;
+    padding: 20px;
+    background: #FFFFFF;
+}
+
+#blog-title, #blog-body {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+#blog-body {
+    height: 300px;
+    resize: none;
+}
+
+#save-blog {
+    padding: 10px 20px;
+    background: #66BB6A;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#save-blog:hover {
+    background: #43A047;
+}
+
+button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: none;
+    background: #7986CB;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #5C6BC0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+li:hover {
+    color: #5C6BC0;
+}
